@@ -157,3 +157,5 @@ class Database:
     async def drop_products(self):
         await self.execute("DROP TABLE products", execute=True)
 
+
+
