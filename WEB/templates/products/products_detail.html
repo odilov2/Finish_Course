@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+</head>
+<body>
+    <p>
+        <h2>Id: {{products.id}}</h2>
+        <h2>Name: {{products.name}}</h2>
+        <h2>Price: {{products.price}}</h2>
+        <h2>Description: {{products.description}}</h2>
+        <h2>Count: {{products.count}}</h2>
+        <h2>Image: {{products.image.url}}</h2>
+    </p>
+    <a href="{% url 'settings' user.id %}">
+        <button type="submit">Settings</button>
+        <br>
+    </a>
+     <a href="{% url 'delete-user' user.id %}">
+        <button type="submit">Delete</button>
+    </a>
+</body>
+</html>
