@@ -1,2 +1,3 @@
 https://github.com/odilov2/Finish_Course
 Gitga qoshishda muammo boldi, agar keyin togrilay olsam yuqoridagi url githubdagi kodlar
+Telegram bot: https://t.me/odilov1_bot
