@@ -136,4 +136,3 @@ async def delete_product(id: int):
         session.commit()
         return HTTPException(status_code=status.HTTP_204_NO_CONTENT, detail="Product deleted successfully")
     return HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Product not found")
-
