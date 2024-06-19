@@ -5,6 +5,9 @@ from users.models import Users_Product, Users
 class Category(models.Model):
     name = models.CharField(max_length=50)
 
+    class Meta:
+        db_table = 'category'
+
 
 class Product(models.Model):
     name = models.CharField(max_length=20)

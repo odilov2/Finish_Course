@@ -39,7 +39,8 @@ class ServiceView(View):
 
 class ShopView(View):
     def get(self, request):
-        return render(request, 'shop.html')
+        products = Product.objects.all()
+        return render(request, 'shop.html', {'products': products})
 
 
 class ThankyouView(View):
